@@ -1,0 +1,563 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+  
+  body {
+    padding: 0; }
+  
+  .header {
+    background-image: url(../archivos/fotos/fondomain.jpeg);
+    border-bottom: 3px solid;
+    
+    -webkit-box-shadow: 16px 12px 38px 9px black;
+    -moz-box-shadow: 16px 12px 38px 9px black;
+    box-shadow: 16px 12px 38px 9px black;
+    z-index: 9999; }
+  
+  .navBar {
+    background-image: url(../archivos/fotos/fondomain.jpeg); }
+    .navBar li {
+      display: flex;
+      list-style: none;
+      font-family: 'Dangrek', cursive; }
+      .navBar li a {
+        color: black;
+        text-decoration: none; }
+  
+  .logo {
+    display: flex;
+    height: 130px;
+    width: 130px; }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray; }
+  
+  .parrafos-footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center; }
+  
+  .parrafos-footer ul li {
+    list-style: none; }
+  
+  .links-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px; }
+  
+  .links-footer a {
+    padding: 25px; }
+  
+  .logofb {
+    height: 50px;
+    width: 50px; }
+  
+  .logoig {
+    height: 50px;
+    width: 50px; }
+  .distribuidor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    
+  }  
+ 
+  /*
+  .maininicio {
+    width: 100%;
+    padding-top: 150px; }
+  
+  .sectiongomeria-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    margin: auto; }
+  
+  .sectiongomeria-a {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black; }
+  
+  .sectionconsecionaria-i {
+    background-image: url(../archivos/fotos/fondoconcesionaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid black;
+    margin: auto; }
+  
+  .sectionconsecionaria-a {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black; }
+  
+  body {
+    width: 100%; }
+  
+  .agente {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+  .agente h2 {
+    padding-top: 250px; }
+  
+  .agente img {
+    padding-top: 250px; }
+  
+  .cardcarousel {
+    max-width: 550px; }
+    .cardcarousel h2 {
+      -webkit-text-stroke: 3px black;
+      -webkit-text-fill-color: white;
+      font-size: 60px; }
+  
+  .titulo-autos h2 {
+    font-family: 'Dangrek', cursive;
+    color: #c6c4c4;
+    padding-top: 100px;
+    padding-bottom: 50px; }
+  
+  .carousel {
+    height: 450px;
+    width: 550px;
+    gap: 50px; }
+  
+  .carousel-item img {
+    height: 450px;
+    width: 550px;
+    border: 5px solid black;
+    border-radius: 15px; }
+  
+  .carousel-inner {
+    height: 450px;
+    width: 650px; }
+  
+  .caracteristicas {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    font-family: 'Dangrek', cursive;
+    color: #c6c4c4;
+    margin-right: 15px; }
+    .caracteristicas ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .caracteristicas ul li {
+      list-style: none;
+      padding: 0; }
+  */
+  .main-cg {
+    background-image: url(../../archivos/valentino/nuevasbaja/fondometaliko.jpg);
+    width: 100%; }
+  /*
+  .fotosautos {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+  .main-cg {
+    background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
+    width: 100%; }
+  
+  .logo-dunlop {
+    height: 250px;
+    width: 300px;
+    padding-top: 150px; }
+  
+  .distribuidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dangrek', cursive;
+    font-size: 16px;
+    padding-top: 150px;
+    padding-bottom: 95px;
+    
+ }
+  /*
+  .boton-g {
+    margin-right: 75px; }
+  
+  .card-gomasgeneral {
+    flex-direction: column;
+    padding: 100px;
+    gap: 50px; }
+  
+  .section-servg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    border: 5px solid black;
+    gap: 120px; }
+  
+  .section-servg h2 {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px; }
+  
+  .section-servg ul {
+    list-style: none;
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; }
+  
+  .section-servc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../archivos/fotos/fondoconcesionaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    border: 5px solid black;
+    gap: 120px; }
+  
+  .section-servc h2 {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px; }
+  
+  .section-servc ul {
+    list-style: none;
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; }
+  
+  .mainContacto {
+    padding-top: 180px;
+    height: 120vh; }
+  
+  .iframeMap {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+  .numerosTelefonicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px; }
+  
+  .legendSexo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  
+  .card-completa {
+    -webkit-box-shadow: 16px 12px 38px 9px black;
+    -moz-box-shadow: 16px 12px 38px 9px black;
+    box-shadow: 16px 12px 38px 9px black; }
+  
+  .card-completa2 {
+    background-color: #d1b40f;
+    border: solid 4px black;
+    border-radius: 5px; }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      width: 380px;
+      height: 280px; }
+    .carousel-item img {
+      width: 380px;
+      height: 280px; }
+    .navBar {
+      display: flex; }
+    .maininicio {
+      padding-top: 76px; }
+    .caracteristicas {
+      padding-right: 0px; } }
+  
+  @media (max-width: 576px) {
+    body {
+      width: 100%; }
+      
+    header
+    .navBar li a {
+      color: black;
+      text-decoration: none; }
+    .logo {
+      display: flex;
+      height: 85px;
+      width: 100px; }
+    .carousel {
+      width: 275px;
+      height: 220px; }
+    .carousel-item img {
+      width: 275px;
+      height: 220px; }
+    .card-completa {
+      height: 750px; }
+    .card-completa2 {
+      height: 750px; } }
+  */
+
+  /* CSS PROFE */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+  }
+  /*
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* margin-bottom: 20px; */
+  }*/
+  
+  h1 {
+    color: rgb(225, 76, 65);
+    text-transform: uppercase;
+    font-weight: 500px;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  #cesta-carrito {
+    border: none;
+    color: rgb(2, 2, 2);
+    font-size: 33px;
+    background-image: url(../archivos/fotos/fondomain.jpeg);
+    padding: 30px 30px;
+    transition: all .3s;
+  }
+  
+  #cesta-carrito:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(7, 7, 7);
+  }
+  
+  #cesta-carrito:focus {
+    outline: none;
+  }
+  
+  #producto-contenedor {
+    display: grid;
+    gap: 5rem;
+    max-width: 65rem;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+  
+  .card {
+    max-width: 35%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  .card-carrito{
+    min-width: 700px;
+    
+    display:flex ;
+    justify-content:first baseline;
+    
+  }
+  .card-carrito a {
+    text-decoration: none;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #314652;
+    color: beige;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+  }
+
+  .card-content{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  select {
+    display: inline;
+    text-align: center;
+    border: 1px solid lightskyblue;
+  }
+  
+  .modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+  }
+  
+  .card-title{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+  .modal-carrito {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  
+  .modal-active .modal-carrito {
+    margin-top: 0;
+  }
+  
+  .modal-carrito h3 {
+    color: rgb(225, 76, 65);
+    padding-bottom: 5px;
+  }
+  
+  .modal-carrito #btn-cerrar-carrito {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: rgb(225, 76, 65) !important;
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .modal-carrito #btn-cerrar-carrito:hover {
+    cursor: pointer;
+  }
+  
+  .modal-carrito #btn-cerrar-carrito:focus {
+    outline: none;
+  }
+  
+  .modal-carrito .producto-precio {
+    padding-top: 10px;
+  }
+  
+  .card .card-image .card-title {
+    color: rgb(29, 11, 10);
+    position: unset
+  }
+  
+  .productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .productoEnCarrito:hover {
+    border-left: 5px solid rgb(225, 76, 65);
+  }
+  
+  .boton-eliminar {
+    background-color: white;
+    color: #ff6961;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .boton-eliminar:hover {
+    cursor: pointer;
+  }
+  
+  .boton-eliminar:focus {
+    outline: none;
+  }
