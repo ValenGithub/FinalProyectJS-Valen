@@ -9,21 +9,21 @@ productoContenedor.addEventListener('click', (e) => {
 })
 
 const validarProductoRepetido = (cubiertaId) => {
+    const cubierta = cubiertas.find(cubierta => cubierta.id == cubiertaId)
     const productoRepetido = carrito.find(cubierta => cubierta.id == cubiertaId)
-
-    if (localStorage.getItem('carrito')) {
-        carrito = obtenerCarritoStorage()
-    }
-
-    if (!productoRepetido) {
-        const cubierta = cubiertas.find(cubierta => cubierta.id == cubiertaId)
-        carrito.push(cubierta)
-        pintarProductoCarrito(cubierta)
-        actualizarTotalesCarrito(carrito)
-    } else {
+    
+    if (productoRepetido) {
         productoRepetido.cantidad++
-        const cantidadProducto = document.getElementById(`cantidad${productoRepetido.id}`)
+        const cantidadProducto =document.getElementById (`cantidad${productoRepetido.id}`)
         cantidadProducto.innerText = `Cantidad: ${productoRepetido.cantidad}`
+        actualizarTotalesCarrito(carrito)
+
+
+    
+    } else {
+        carrito.push(cubierta)
+        cubierta.cantidad = 1
+        pintarProductoCarrito(cubierta)
         actualizarTotalesCarrito(carrito)
     }
 };
