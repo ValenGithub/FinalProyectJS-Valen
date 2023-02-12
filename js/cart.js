@@ -2,6 +2,7 @@ let carrito = []
 
 const productoContenedor = document.getElementById('producto-contenedor')
 
+
 productoContenedor.addEventListener('click', (e) => {
     if (e.target.classList.contains('agregar')) {
         validarProductoRepetido(e.target.id)
@@ -23,23 +24,11 @@ const validarProductoRepetido = (cubiertaId) => {
     } else {
         carrito.push(cubierta)
         cubierta.cantidad = 1
-        pintarProductoCarrito(cubierta)
+        pintarCarrito(carrito)
         actualizarTotalesCarrito(carrito)
     }
 };
 
-const pintarProductoCarrito = (cubierta) => {
-    const contenedor = document.getElementById('carrito-contenedor')
-    const div = document.createElement('div')
-    div.classList.add('productoEnCarrito')
-    div.innerHTML = `
-        <p>${cubierta.modelo}</p>
-        <p>Precio: ${cubierta.precio}</p>
-        <p id=cantidad${cubierta.id}>Cantidad: ${cubierta.cantidad}</p>
-        <button class="btn waves-effect waves-ligth boton-eliminar" value="${cubierta.id}">X</button>
-    `
-    contenedor.appendChild(div)
-};
 
 const actualizarTotalesCarrito = (carrito) => {
     const totalCantidad = carrito.reduce((acc, item) => acc + item.cantidad, 0)
@@ -70,9 +59,31 @@ const pintarCarrito = (carrito) => {
             <p>Precio: ${cubierta.precio}</p>
             <p id=cantidad${cubierta.id}>Cantidad: ${cubierta.cantidad}</p>
             <button class="btn waves-effect waves-ligth boton-eliminar" value="${cubierta.id}">X</button>
+            
         `
         contenedor.appendChild(div)
     });
+    contenedor.innerHTML  += `<button type="button" id="btn2" class="btn btn-success">Finalizar compra</button>`
+    const btn2 = document.querySelector('#btn2')
+
+    btn2.addEventListener('click', () => {
+        if(carrito.length > 0) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Gracias por su compra!',
+                text: 'En 5 dias llega su producto!'
+              })
+              eliminarProductosCarrito()
+              modalContenedor.classList.toggle('modal-active')
+        } else {
+            Swal.fire({
+                icon: 'warning',
+                title: 'No se completo la operacion!',
+                text: 'Debe agregar productos en el carrito!'
+              })
+        }
+
+    })
 };
 
 const eliminarProductosCarrito = (cubiertaId) => {
@@ -100,4 +111,3 @@ const cargarCarrito = () => {
     }
 };
 
-cargarCarrito()

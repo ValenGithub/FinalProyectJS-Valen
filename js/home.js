@@ -1,7 +1,8 @@
-const pintarProductos = (cubiertas) => {
+const pintarProductos = (data) => {
     const contenedor = document.getElementById("producto-contenedor");
 
-    cubiertas.forEach(cubierta => {
+
+    data.forEach(cubierta => {
       const div = document.createElement('div');
       div.classList.add('card');
       div.innerHTML += `<div class="card-image">
@@ -17,5 +18,8 @@ const pintarProductos = (cubiertas) => {
                         </div>
                        `
       contenedor.appendChild(div);
+
     });
+    
+    
   };
