@@ -1,4 +1,10 @@
 let carrito = []
+let cubiertas = []
+fetch('/data/stock.json')
+.then((resp) => resp.json())
+.then(data => {
+    cubiertas = data
+})
 
 const productoContenedor = document.getElementById('producto-contenedor')
 
@@ -32,7 +38,7 @@ const validarProductoRepetido = (cubiertaId) => {
 
 const actualizarTotalesCarrito = (carrito) => {
     const totalCantidad = carrito.reduce((acc, item) => acc + item.cantidad, 0)
-    const totalCompra = carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0)
+    const totalCompra = carrito.reduce((acc, item) => acc + (item.medida[0].PRECIO * item.cantidad), 0)
 
     pintarTotalesCarrito(totalCantidad, totalCompra)
     guardarCarritoStorage(carrito)
@@ -56,7 +62,8 @@ const pintarCarrito = (carrito) => {
         div.classList.add('productoEnCarrito')
         div.innerHTML = `
             <p>${cubierta.modelo}</p>
-            <p>Precio: ${cubierta.precio}</p>
+            <p>${cubierta.medida[0].MEDIDA}<p/>
+            <p>Precio: ${cubierta.medida[0].PRECIO}</p>
             <p id=cantidad${cubierta.id}>Cantidad: ${cubierta.cantidad}</p>
             <button class="btn waves-effect waves-ligth boton-eliminar" value="${cubierta.id}">X</button>
             
@@ -81,6 +88,7 @@ const pintarCarrito = (carrito) => {
                 title: 'No se completo la operacion!',
                 text: 'Debe agregar productos en el carrito!'
               })
+              modalContenedor.classList.toggle('modal-active')
         }
 
     })

@@ -1,96 +1,464 @@
-[
-    {
+    [{
         "id": 1,
         "marca": "Dunlop",
         "modelo": "Direzza DZ102",
-        "medida": "205/55 R16",
-        "rodado": 16,
-        "descripcion": "",
-        "precio": 56000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/auto/DIREZZA-DZ102.png"
-    },
+        "medida":
+                    [
+                {
+                "LLANTA": 14,
+                "MEDIDA": "185\/60R14",
+                "STOCK": 23,
+                "PRECIO": 58810.2955
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "195\/50R15",
+                "STOCK": 5,
+                "PRECIO": 84013.94209999999
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "195\/55R15",
+                "STOCK": 6,
+                "PRECIO": 86565.96519999999
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "205\/50R15",
+                "STOCK": 56,
+                "PRECIO": 101485.72499999999
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "205\/55R15",
+                "STOCK": 4,
+                "PRECIO": 100358.5616
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "195\/50R16",
+                "STOCK": 22,
+                "PRECIO": 111298.7161
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "205\/55R16",
+                "STOCK": 10,
+                "PRECIO": 95717.2799
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "205\/45R17",
+                "STOCK": 26,
+                "PRECIO": 104449.1118
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "225\/45R17",
+                "STOCK": 37,
+                "PRECIO": 109034.915
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "235\/40R18",
+                "STOCK": 14,
+                "PRECIO": 171941.1694
+                }
+            ],
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/auto/DIREZZA-DZ102.png"
+        },
+        {
+            "id": 2,
+            "marca": "Dunlop",
+            "modelo": "Sport MAXX 050",
+            "medida": [
+                {
+                "LLANTA": 17,
+                "MEDIDA": "205\/50R17",
+                "STOCK": 8,
+                "PRECIO": 151845.6467
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "215\/55R17",
+                "STOCK": 8,
+                "PRECIO": 162075.41019999998
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "225\/45R17",
+                "STOCK": 12,
+                "PRECIO": 189510.3815
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "225\/50R17",
+                "STOCK": 16,
+                "PRECIO": 179984.2572
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "225\/55R17",
+                "STOCK": 10,
+                "PRECIO": 188917.7114
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "235\/40R18",
+                "STOCK": 4,
+                "PRECIO": 182704.071
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "245\/40R18",
+                "STOCK": 4,
+                "PRECIO": 244669.9013
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "245\/45R18",
+                "STOCK": 4,
+                "PRECIO": 230015.3614
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "255\/35R18",
+                "STOCK": 8,
+                "PRECIO": 283169.524
+                }
+            ]
+            ,
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/auto/NEUMATICO-SP-SPORT-MAXX-050_1.png"
+        },
+        
+        {
+            "id": 3,
+            "marca": "Dunlop",
+            "modelo": "SP Touring R1",
+            "medida":[
+                {
+                "LLANTA": 13,
+                "MEDIDA": "165\/70R13",
+                "STOCK": 50,
+                "PRECIO": 45154.380699999994
+                },
+                {
+                "LLANTA": 13,
+                "MEDIDA": "165\/80R13",
+                "STOCK": 4,
+                "PRECIO": 77024.9579
+                },
+                {
+                "LLANTA": 13,
+                "MEDIDA": "175\/70R13",
+                "STOCK": 64,
+                "PRECIO": 48763.2178
+                },
+                {
+                "LLANTA": 14,
+                "MEDIDA": "175\/65R14",
+                "STOCK": 44,
+                "PRECIO": 51610.226800000004
+                },
+                {
+                "LLANTA": 14,
+                "MEDIDA": "175\/70R14",
+                "STOCK": 20,
+                "PRECIO": 54741.4043
+                },
+                {
+                "LLANTA": 14,
+                "MEDIDA": "185\/65R14",
+                "STOCK": 28,
+                "PRECIO": 59436.8093
+                },
+                {
+                "LLANTA": 14,
+                "MEDIDA": "185\/70R14",
+                "STOCK": 12,
+                "PRECIO": 65860.179
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "175\/65R15",
+                "STOCK": 8,
+                "PRECIO": 77349.7098
+                }
+            ]
+            ,
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/auto/R1_2018_-NUEVO.png"
+        },
 
-    {
-        "id": 2,
-        "marca": "Dunlop",
-        "modelo": "Sport MAXX 050",
-        "medida": "235/40 R18",
-        "rodado": 18,
-        "descripcion": "",
-        "precio": 134000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/auto/NEUMATICO-SP-SPORT-MAXX-050_1.png"
-    },
-    
-    {
-        "id": 3,
-        "marca": "Dunlop",
-        "modelo": "SP Touring R1",
-        "medida":"175/65 R14",
-        "rodado": 14,
-        "descripcion": "",
-        "precio": 32000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/auto/R1_2018_-NUEVO.png"
-    },
+        {
+            "id": 4,
+            "marca": "Dunlop",
+            "modelo": "SP Sport FM800",
+            "medida":  [
+                {
+                "LLANTA": 15,
+                "MEDIDA": "185\/60R15",
+                "STOCK": 32,
+                "PRECIO": 71289.2675
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "185\/65R15",
+                "STOCK": 26,
+                "PRECIO": 84092.4227
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "195\/55R15",
+                "STOCK": 16,
+                "PRECIO": 84021.17790000001
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "195\/60R15",
+                "STOCK": 18,
+                "PRECIO": 75914.0327
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "195\/65R15",
+                "STOCK": 26,
+                "PRECIO": 84564.1049
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "205\/60R15",
+                "STOCK": 24,
+                "PRECIO": 87465.80589999999
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "205\/65R15",
+                "STOCK": 12,
+                "PRECIO": 90649.75149999998
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "185\/55R16",
+                "STOCK": 8,
+                "PRECIO": 85967.88639999999
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "195\/55R16",
+                "STOCK": 14,
+                "PRECIO": 91511.70709999999
+                }
+            ]
+            ,
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/auto/SPSPORT705.png"
+        },
+        {
+            "id": 5,
+            "marca": "Dunlop",
+            "modelo": "Grandtrek AT25",
+            "medida": 
+            [
+                {
+                "LLANTA": 17,
+                "MEDIDA": "265\/65R17",
+                "STOCK": 12,
+                "PRECIO": 149627.8498
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "265\/60R18",
+                "STOCK": 16,
+                "PRECIO": 161419.0094
+                }
+            ],
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/camioneta/at25_2018.png"
+        },    
 
-    {
-        "id": 4,
-        "marca": "Dunlop",
-        "modelo": "SP Sport FM800",
-        "medida":"185/60 R15",
-        "rodado": 15,
-        "descripcion": "",
-        "precio": 49000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/auto/SPSPORT705.png"
-    },
-    {
-        "id": 5,
-        "marca": "Dunlop",
-        "modelo": "Grandtrek AT25",
-        "medida": "265/60 R18",
-        "rodado":18,
-        "descripcion": "",
-        "precio": 111000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/camioneta/at25_2018.png"
-    },    
+        {
+            "id":6,
+            "marca": "Dunlop",
+            "modelo": "Grandtrek AT3",
+            "medida":[
+                {
+                "LLANTA": 15,
+                "MEDIDA": "235\/75R15",
+                "STOCK": 4,
+                "PRECIO": 99005.4186
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "265\/70R15",
+                "STOCK": 4,
+                "PRECIO": 94824.2031
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "31X10.5R15",
+                "STOCK": 12,
+                "PRECIO": 129847.60470000001
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "245\/70R16",
+                "STOCK": 32,
+                "PRECIO": 146228.7541
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "265\/70R16",
+                "STOCK": 16,
+                "PRECIO": 157680.3998
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "245\/65R17",
+                "STOCK": 10,
+                "PRECIO": 152395.023
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "265\/65R17",
+                "STOCK": 8,
+                "PRECIO": 159917.14529999997
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "265\/60R18",
+                "STOCK": 8,
+                "PRECIO": 238168.051
+                }
+            ]        ,
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/camioneta/NEUMATICO-AT3.png"
+        },
 
-    {
-        "id":6,
-        "marca": "Dunlop",
-        "modelo": "Grandtrek AT3",
-        "medida":"265/70 R16",
-        "rodado":16,
-        "descripcion": "",
-        "precio": 79000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/camioneta/NEUMATICO-AT3.png"
-    },
+        {
+            "id": 7,
+            "marca": "Dunlop",
+            "modelo": "Grandtrek MT2",
+            "medida": [
+                {
+                "LLANTA": 15,
+                "MEDIDA": "205\/70R15",
+                "LÍNEA (A\/C)": 0,
+                "PRECIO": 96081.27209999999
+                },
+                {
+                "LLANTA": 15,
+                "MEDIDA": "31X10.5R15",
+                "LÍNEA (A\/C)": 4,
+                "PRECIO": 142833.7119
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "215\/65R16",
+                "LÍNEA (A\/C)": 2,
+                "PRECIO": 135433.3761
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "245\/70R16",
+                "LÍNEA (A\/C)": 12,
+                "PRECIO": 132047.8082
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "255\/70R16",
+                "LÍNEA (A\/C)": 2,
+                "PRECIO": 146312.6434
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "265\/70R16",
+                "LÍNEA (A\/C)": 24,
+                "PRECIO": 144998.58339999997
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "235\/65R17",
+                "LÍNEA (A\/C)": 18,
+                "PRECIO": 154829.3252
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "265\/65R17",
+                "LÍNEA (A\/C)": 12,
+                "PRECIO": 163710.217
+                }
+            ]
+            ,
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/camioneta/MT2_narrow.png"
+        }, 
 
-    {
-        "id": 7,
-        "marca": "Dunlop",
-        "modelo": "Grandtrek MT2",
-        "medida": "245/70 R16",
-        "rodado":16,
-        "descripcion": "",
-        "precio": 145000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/camioneta/MT2_narrow.png"
-    }, 
-
-    {
-        "id": 8,
-        "marca": "Dunlop",
-        "modelo": "Grandtrek PT3",
-        "medida": "235/60 R16",
-        "rodado":16,
-        "descripcion": "",
-        "precio": 92000,
-        "cantidad":1,
-        "imagen": "../archivos/gomitas/camioneta/NEUMATICO-PT3.png"
-    }
-]
+        {
+            "id": 8,
+            "marca": "Dunlop",
+            "modelo": "Grandtrek PT3",
+            "medida": [
+                {
+                "LLANTA": 16,
+                "MEDIDA": "215\/60R16",
+                "LÍNEA (A\/C)": 4,
+                "PRECIO": 146703.7033
+                },
+                {
+                "LLANTA": 16,
+                "MEDIDA": "235\/60R16",
+                "LÍNEA (A\/C)": 8,
+                "PRECIO": 161170.1608
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "235\/65R17",
+                "LÍNEA (A\/C)": 10,
+                "PRECIO": 158738.55690000003
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "245\/65R17",
+                "LÍNEA (A\/C)": 2,
+                "PRECIO": 189845.96289999998
+                },
+                {
+                "LLANTA": 17,
+                "MEDIDA": "265\/65R17",
+                "LÍNEA (A\/C)": 2,
+                "PRECIO": 205380.0397
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "225\/55R18",
+                "LÍNEA (A\/C)": 6,
+                "PRECIO": 193285.65409999999
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "235\/55R18",
+                "LÍNEA (A\/C)": 4,
+                "PRECIO": 200202.92159999997
+                },
+                {
+                "LLANTA": 18,
+                "MEDIDA": "235\/60R18",
+                "LÍNEA (A\/C)": 12,
+                "PRECIO": 207099.8853
+                }
+            ],
+            "descripcion": "",
+            "cantidad":1,
+            "imagen": "../archivos/gomitas/camioneta/NEUMATICO-PT3.png"
+        }
+    ]
